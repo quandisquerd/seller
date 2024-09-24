@@ -1,0 +1,45 @@
+/* styles.css */
+.ant-tabs-nav {
+    display: flex;
+    /* width: 100%; */
+}
+
+.ant-tabs-nav-list {
+    display: flex;
+    width: 100%;
+}
+
+.ant-tabs-tab {
+    flex: 1;
+    /* Đảm bảo mỗi tab chiếm đều phần không gian có sẵn */
+    text-align: center;
+    /* Căn giữa nội dung của tab */
+    line-height: 48px;
+    color: 'red'
+    /* Đảm bảo chiều cao của dòng để căn giữa văn bản nếu cần */
+}
+
+
+.custom-tabs .ant-tabs-tab {
+    flex: 1;
+    /* Đảm bảo mỗi tab chiếm đều phần không gian có sẵn */
+    text-align: center;
+    align-items: center;
+    /* Căn giữa nội dung của tab */
+    line-height: 48px;
+     color:'red'
+    /* Đảm bảo chiều cao của dòng để căn giữa văn bản nếu cần */
+}
+.ant-tabs-tab-btn{
+    width: 100%;
+    text-align: center;
+    color: 'red'
+    
+}
+/* Đối với biểu tượng ellipsis, nếu cần */
+.anticon-ellipsis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: 'red'
+}

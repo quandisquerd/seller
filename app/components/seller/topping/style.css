@@ -1,0 +1,15 @@
+/* customSwitch.css */
+.ant-switch {
+    background-color: #e0e0e0;
+    /* Màu nền khi không bật */
+    border-color: #bdbdbd;
+    /* Màu viền khi không bật */
+}
+
+.ant-switch-checked {
+    background-color: #1abe20 !important;
+    /* Màu nền khi bật */
+    border-color: #1abe20 !important;
+    /* Màu viền khi bật */
+}
+
